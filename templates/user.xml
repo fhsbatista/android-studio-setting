@@ -1,0 +1,7 @@
+<templateSet group="user">
+  <template name="itDataClass" value="data class $class_name () {&#10;}" description="Create a data class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
