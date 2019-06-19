@@ -25,4 +25,11 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="datp" value="var $PROPNAME$: $PROPTYPE$?," description="data class propertie" toReformat="false" toShortenFQNames="true">
+    <variable name="PROPNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROPTYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
