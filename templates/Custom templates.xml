@@ -1,5 +1,5 @@
 <templateSet group="Custom templates">
-  <template name="concom" value="/** $YOURCOMMENT$ **/" description="A cool way to write comments that organize interfaces function on contracts" toReformat="false" toShortenFQNames="true">
+  <template name="concom" value="/** Related to $YOURCOMMENT$ **/" description="A cool way to write comments that organize interfaces function on contracts" toReformat="false" toShortenFQNames="true">
     <variable name="YOURCOMMENT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
