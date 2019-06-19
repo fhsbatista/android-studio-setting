@@ -12,4 +12,17 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="xmlcom" value="&lt;!--$YOUCOMMENT$--&gt;" description="Comments for xml" toReformat="false" toShortenFQNames="true">
+    <variable name="YOUCOMMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="str" value="&lt;string name=&quot;$YOURSTRINGNAME$&quot;&gt;$YOURSTRING$&lt;/string&gt;" description="String generator" toReformat="false" toShortenFQNames="true">
+    <variable name="YOURSTRINGNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="YOURSTRING" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
