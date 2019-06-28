@@ -32,4 +32,10 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="nstr" value="private var $PROPNAME$: String? = null" description="creates a nullable string prop" toReformat="false" toShortenFQNames="true">
+    <variable name="PROPNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
