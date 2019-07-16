@@ -1,0 +1,6 @@
+<templateSet group="AndroidXML">
+  <template name="lh" value="android:layout_height=&quot;$height$&quot;&#10;" description="android:layout_height=&quot;&quot;" toReformat="false" toShortenFQNames="true">
+    <variable name="height" expression="" defaultValue="wrap_content" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
