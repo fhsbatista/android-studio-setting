@@ -18,7 +18,7 @@
       <option name="XML" value="true" />
     </context>
   </template>
-  <template name="str" value="&lt;string name=&quot;$YOURSTRINGNAME$&quot;&gt;$YOURSTRING$&lt;/string&gt;" description="String generator" toReformat="false" toShortenFQNames="true">
+  <template name="str" value="&lt;string name=&quot;signup_personal_data_hint_$YOURSTRINGNAME$&quot;&gt;$YOURSTRING$&lt;/string&gt;" description="String generator" toReformat="false" toShortenFQNames="true">
     <variable name="YOURSTRINGNAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="YOURSTRING" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
