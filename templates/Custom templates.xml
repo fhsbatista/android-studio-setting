@@ -52,4 +52,11 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="viewmodel" value="class $VIEWMODELNAME$(private val repository: $REPOSITORYTYPE$) : ViewModel() {&#10;&#10;&#10;    private val disposable = CompositeDisposable()&#10;&#10;    val showLoadingEvent = SingleLiveEvent&lt;Boolean&gt;()&#10;    val showErrorEvent = SingleLiveEvent&lt;ErrorEvent&gt;()&#10;&#10;&#10;    fun init() {&#10;    &#10;    }&#10;&#10;    override fun onCleared() {&#10;        super.onCleared()&#10;        disposable.dispose()&#10;    }&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEWMODELNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="REPOSITORYTYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
