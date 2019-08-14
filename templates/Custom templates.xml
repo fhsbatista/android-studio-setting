@@ -46,7 +46,7 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="cdata" value="&lt;![CDATA[$TEXT$]]&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="cdata" value="&lt;![CDATA[$TEXT$]]&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="XML" value="true" />
